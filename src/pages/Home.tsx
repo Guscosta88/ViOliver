@@ -8,13 +8,13 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>VI OLIVER HAIR AND BEAUTY</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle className="title" >VI OLIVER HAIR <br></br> AND BEAUTY</IonTitle>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer />

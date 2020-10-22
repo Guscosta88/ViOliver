@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import './ExploreContainer.css';
 
 interface ContainerProps { }
@@ -6,9 +7,13 @@ interface ContainerProps { }
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-    </div>
+     <div className="home">
+       <Button variant="outline-info">FIRST TIME HERE</Button>
+       </div>
+       <div className="home">
+       <Button variant="outline-info">ALREADY A CUSTOMER</Button>
+   </div>
+   </div>
   );
 };
 
